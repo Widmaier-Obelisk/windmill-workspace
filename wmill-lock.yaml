@@ -1,3 +1,5 @@
 version: v2
 locks:
   f/demos/hello_world: a1a6f129a9feaca7ec32839a191d3c62a0f942a9b8b8d36894e6abea775d078e
+  f/pipelines/finance_pipeline/run: 361b98b2485a2f272be008f98378caf48b78c2be4bdb01f11cdade9cb171d2af
+  f/pipelines/letterboxd_ingest/run: e87eeac0756cc845ffca6e0e0adb61c6268199cb99e81ab9c59d07f0b665fadd

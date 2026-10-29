@@ -41,6 +41,15 @@ jobs:
       - name: Install Windmill CLI
         run: npm install -g windmill-cli
 
+      - name: Verify deployment source
+        run: |
+          echo "Deployment ref: ${{ github.ref_name }}"
+          echo "Deployment commit: $(git rev-parse HEAD)"
+          echo "Letterboxd dependency:"
+          grep "letterboxd-pipeline@git+" f/pipelines/letterboxd_ingest/run.py
+          echo "Finance dependency:"
+          grep "finance-pipeline@git+" f/pipelines/finance_pipeline/run.py
+
       - name: Deploy to Windmill
         env:
           WMILL_TOKEN: ${{ secrets.WMILL_TOKEN }}

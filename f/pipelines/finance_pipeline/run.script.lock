@@ -1,0 +1,15 @@
+# workspace-dependencies-mode: manual
+# py: 3.12
+anyio==4.15.1
+certifi==2026.10.23
+charset-normalizer==3.5.2
+finance-pipeline @ git+https://github.com/JWindy92/budget_tool.git@e875aebc0df7b5becb8036f9216a9f29587591ed
+h11==0.16.0
+httpcore==1.0.9
+httpx==0.28.1
+idna==3.20
+openbao-client @ git+https://github.com/JWindy92/openbao_client.git@c8b1aa095e9f40d2d06b6d3420d3b75384d7a196
+requests==2.34.2
+typing-extensions==4.16.0
+urllib3==2.8.0
+wmill==1.853.1

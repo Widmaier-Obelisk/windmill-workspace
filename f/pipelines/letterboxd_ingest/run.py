@@ -1,5 +1,5 @@
 # requirements:
-# letterboxd-pipeline@git+https://github.com/JWindy92/letterboxd-pipeline.git
+# letterboxd-pipeline@git+https://github.com/JWindy92/letterboxd-pipeline.git@main
 
 from letterboxd_pipeline.export import export_activity
 
